@@ -1,0 +1,63 @@
+header {
+    height: 40px;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.link {
+    margin-left: 850px;
+}
+
+#fline {
+    font-size: large;
+    font-weight: 200;
+}
+
+.h2 {
+    text-align: center;
+    font-size: larger;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#p1 {
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Diwali, .Saree {
+    height: 320px;
+}
+
+#diwali, #saree {
+    height: 300px;
+}
+
+.table {
+    text-align: center;
+}
+
+table {
+    height: 100px;
+    width: 400px;
+}
+
+th, td {
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    border: 1px solid black;
+}
+
+td {
+    font-weight: 200;
+    color: black;
+    background-color: azure;
+}
+
+footer {
+    text-align: end;
+    height: 40px;
+}
