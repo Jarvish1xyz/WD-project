@@ -1,5 +1,6 @@
 header {
     height: 40px;
+    background_color: #ef4357;
 }
 
 a {
@@ -69,6 +70,7 @@ a {
 }
 
 footer {
+    background_color: #ef4357;
     text-align: end;
     height: 40px;
 }
