@@ -37,7 +37,7 @@ h3 {
 .Taj, .Minar, .Dance, .Biryani, .Sfood {
     float: left;
     /* margin-right: 50px; */
-    margin: 18px;
+    /* margin: 18px; */
     padding: 15px;
     width: auto;
     background-color: rgba(175, 191, 198, 0.843);
