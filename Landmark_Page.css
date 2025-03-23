@@ -15,14 +15,11 @@ table, th, td {
     height: 30px;
     text-align: center;
     border: 1px solid black;
-    border-radius: 10px;
     transition: all 0.5s;
 }
 td:hover {
-    background-color: rgb(59, 88, 103);
+    background-color: rgba(75, 102, 115, 0.532);
     border: 1px solid black;
-    border-radius: 20px;
-    padding: 1px 3px;
 }
 
 table {

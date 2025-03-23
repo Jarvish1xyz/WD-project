@@ -31,10 +31,8 @@ td {
     transition: all 0.5s;
 }
 td:hover {
-    background-color: rgb(59, 88, 103);
+    background-color: rgba(75, 102, 115, 0.532);
     border: 1px solid black;
-    border-radius: 20px;
-    padding: 1px 3px;
 }
 
 #lang {
@@ -46,6 +44,7 @@ td:hover {
 details {
     margin-left: 5px;
     font-family:'Courier New', Courier, monospace;
+    transition: all 0.5s;
 }
 
 @media screen and (max-width: 384px) {
