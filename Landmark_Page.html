@@ -41,6 +41,27 @@
                 <b id="p1">Explore the iconic landmark that define the heritage and history of India.</b>
             </div>
         </div>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./slide1.png" class="d-block w-50" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./slide2.png" class="d-block w-50" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./slide3.jpeg" class="d-block w-50" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
         <div class="Imonument">
             <div class="h2"><h2>Iconic Monuments</h2></div>
             <p id="p2">India is home to some of the most awe-inspiring landmarks in the world. These monuments reflect its rich cultural heritage and historical significance:</p>
@@ -50,11 +71,15 @@
                 <li><b>Hawa Mahal:</b> Known as the "Palace of Winds", this Jaipur marvel is famous for its intricate latticework.</li>
                 <li><b>Charminar:</b> An iconic mosque in Hyderabad and a masterpiece of Indo-Islamic architecture.</li>
             </ul>
-            <div class="img1">
+            <div class="img2">
                 <div class="one2">
-                    <div class="Redfort">
-                        <img src="./redfort.jpg" id="redfort" alt="Dances"><br>
-                        1.The majestic Red Fort in Delhi.
+                    <div class="card" style="width: 18rem; float:left">
+                        <img src="./redfort.jpg" class="card-img-top" alt="tajmahel">
+                        <div class="card-body">
+                          <h5 class="card-title">Red_Fort</h5>
+                          <p class="card-text">1.The majestic Red Fort in Delhi.</p>
+                          <a href="https://en.wikipedia.org/wiki/Red_Fort" class="btn btn-primary" target="_blank">Go somewhere</a>
+                        </div>
                     </div>
                     <p id="p4">Emperor Shah Jahan commissioned construction of the Red Fort on 12 May 1639, following his decision to shift his capital from Agra to Delhi. Originally adorned in red and white, the favorite colors of Emperor Shah Jahan, the design of the Red Fort is attributed to the architect Ustad Ahmad Lahori, renowned for his work on the Taj Mahal. The fort straddles the Yamuna River, which fed the moats surrounding most of the walls. <br><br>In 1760, the Marathas stripped and melted the silver ceiling of the Diwan-i-Khas to raise funds for the defence of Delhi from the armies of Ahmed Shah Durrani. In 1761, after the Marathas lost the third battle of Panipat, Delhi was raided by Ahmed Shah Durrani. Ten years later, the Marathas, acting at the behest of the exiled Emperor Shah Alam II, recaptured Delhi from the Rohilla Afghans.</p>
                 </div>
@@ -103,11 +128,15 @@
         <div class="FFact">
             <div class="h2"><h2>Fun Fact</h2></div>
             <p id="p2">Did you know? India has largest postal network in the world, with over <mark id="mark">1,50,000</mark> post office, including one located on a floting structure in Dal Lake, Srinagar.</p>
-            <div class="img1">
+            <div class="img2">
                 <div class="one2">
-                    <div class="Dallake">
-                        <img src="./dal_lake.jpg" id="dallake" alt="Dances"><br>
-                        1.The floting post office in Dal Lake, Srinagar.
+                    <div class="card" style="width: 18rem; float:left">
+                        <img src="./dal_lake.jpg" class="card-img-top" alt="tajmahel">
+                        <div class="card-body">
+                          <h5 class="card-title">Dal_lake</h5>
+                          <p class="card-text">1.The floting post office in Dal Lake, Srinagar.</p>
+                          <a href="https://en.wikipedia.org/wiki/Dal_Lake" class="btn btn-primary" target="_blank">Go somewhere</a>
+                        </div>
                     </div>
                     <p id="p4">Dal (Urdu pronunciation: [ɖəl] ; Kashmiri pronunciation: [ɖal]) is a freshwater lake in Srinagar, the summer capital of Jammu and Kashmir in Indian-administered Kashmir. It is an urban lake, the second largest lake in Jammu and Kashmir, and the most visited place in Srinagar by tourists and locals. It is integral to tourism and recreation in the Kashmir valley and is variously known as the "Lake of Flowers", "Jewel in the crown of Kashmir" or "Srinagar's Jewel". <br><br>Dal is mentioned as Mahasarit (Sanskrit: महासरित्) in ancient Sanskrit texts. Ancient history records mention that a village named Isabar to the east of Dal was the residence of goddess Durga. This place was known as Sureshwari on the bank of the lake, which was sourced by a spring called the Satadhara. The name "Sureshwari" refers to the goddess Parvati, suggesting that the lake was once considered sacred and possibly associated with the goddess.</p>
                 </div>
@@ -122,5 +151,6 @@
             </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
